@@ -1,4 +1,4 @@
-# Locators & Selenium dropdown menus, select()
+# Locators & Selenium Dropdown Menus, Select()
 
 ```python
 # select 'cssSelector' & select using VisibleText
