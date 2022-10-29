@@ -1,3 +1,8 @@
-# Selenium Tutorial
+# Locators & Selenium dropdown menus, select()
 
-This repo was created for reference and to focus on interacting with elements.
+```python
+# select 'cssSelector' & select using VisibleText
+menuItem.selectByVisibleText("BMW");
+
+# select 'cssSelector' & select using ByValue
+menuItem.selectByValue("ford");
