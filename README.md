@@ -1,4 +1,4 @@
-# Locators & Selenium alert, switchTo()
+# Locators & Selenium Alert, switchTo()
 
 ```python
 # select 'cssSelector' and click() & switchTo to accept alert popup
