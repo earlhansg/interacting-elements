@@ -1,4 +1,4 @@
-#Selenium Hidden Elements, isDisplayed()
+# Selenium Hidden Elements, isDisplayed()
 
 Checking elements whether hidden or not
 
