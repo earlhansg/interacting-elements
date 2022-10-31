@@ -1,3 +1,8 @@
-# Selenium Tutorial
+# JUnit's Assertion
 
-This repo was created for reference and to focus on interacting with elements.
+Assertions is a collection of utility methods that support asserting conditions in tests.
+
+```python
+# Comparing totalValue to expectedValue using Assertion
+String totalValue = driver.findElement(By.cssSelector(".product-total > .value")).getText();
+Assert.assertEquals("$26.12", totalValue);
