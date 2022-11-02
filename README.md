@@ -23,13 +23,13 @@ import org.openqa.selenium.support.ui.Wait;
 
 # Creating web driver wait using FluentWait
 Wait<WebDriver> fluent = new FluentWait<WebDriver>(driver)
-				.withTimeout(Duration.ofSeconds(10))
-				.pollingEvery(Duration.ofSeconds(1))
-				.ignoring(NoSuchElementException.class);
+	.withTimeout(Duration.ofSeconds(10))
+	.pollingEvery(Duration.ofSeconds(1))
+	.ignoring(NoSuchElementException.class);
 		
-		WebElement para = fluent.until(new Function<WebDriver, WebElement>(){
-			public WebElement apply(WebDriver driver) {
-				return driver.findElement(By.cssSelector("#appears"));
-			}
+WebElement para = fluent.until(new Function<WebDriver, WebElement>(){
+	public WebElement apply(WebDriver driver) {
+		return driver.findElement(By.cssSelector("#appears"));
+	}
 });
 System.out.println(para.getText());
