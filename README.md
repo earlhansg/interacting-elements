@@ -8,6 +8,7 @@
 -- instead of setting the browser to maximize the conventional way ...
 ```python
 WebDriver driver = new ChromeDriver();
-druver.manage().window().maximize(); ```
+druver.manage().window().maximize(); 
+```
 
 -- We could make use of Chrome Options by writing something like this:
