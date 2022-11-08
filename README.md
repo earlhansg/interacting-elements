@@ -5,7 +5,7 @@
 - the Chrome Options class can be used to set a number of browser options to Chrome when a test is triggered
 - For example, we can:
 
-instead of setting the browser to maximize the conventional way ...
+instead of setting the browser to maximize the conventional way
 ```python
 WebDriver driver = new ChromeDriver();
 druver.manage().window().maximize(); 
