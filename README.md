@@ -17,3 +17,20 @@ options.addArguments("--start-maximized");
 options.addArguments("--incognito");
 WebDriver driver = new ChromeDriver(options);
 ```
+### Chrome Option Choices
+#### start-maximized
+Opens Chrome in maximize mode
+#### headless
+Opens Chrome in headless mode
+#### disable-extensions
+Disables existing extensions on Chrome browser
+#### incognito
+Opens Chrome in in incognito mode
+#### make-default-browser
+Makes Chrome default browser
+#### version
+Print chrome browser version
+#### disable-infobars
+Prevent Chrime from displaying the notification `Chrome is being controlled by automated software` message
+#### disable-popup-blocking
+Disables pop-ups displayed on Chrome browser
