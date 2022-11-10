@@ -11,7 +11,7 @@
 - The below commands can be set by using driver.manage()
 - We are able to add, return or delete cookies based on our requirements
 
-``` phyton
+```python
 driver.manage().addCookie(arg0);
 driver.manage().getCookies();
 driver.manage().getCookieNamed(arg0);
