@@ -1,3 +1,11 @@
 # Selenium Tutorial
 
-This repo was created for reference and to focus on interacting with elements.
+## Requirements & Configuration
+- install apache commons io jar
+- import jar to the project
+	- Right click properties
+	- Click "Classpath"
+	- Java Build Path
+	- Libraries
+	- Add external jars
+	- Apply and Close
